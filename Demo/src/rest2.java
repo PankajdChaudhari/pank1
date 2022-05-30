@@ -1,8 +1,13 @@
 import static org.junit.Assert.*;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.junit.Assert;
 import org.junit.Test;
 
-public class rest2git {
+public class rest2 {
 
 	@Test
 	public void registerAndVerifyCustomer() throws IOException {
@@ -61,5 +66,5 @@ public class rest2git {
 		wb.close();
 		
 		}
-
+}
 
