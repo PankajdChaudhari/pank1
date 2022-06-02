@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 
-public class Selenium_java {
+public class Ticket_java {
 	
 	webDriver driver=null;
 	
