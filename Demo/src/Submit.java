@@ -27,7 +27,7 @@ public class Submit {
 	public void test() throws IOException {
 		driver.findElement(By.id("bmhm")).click();
 		File scr1=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		  FileUtils.copyFile(scr1,new File("/home/user/Desktop/user_repo/To_Paryicipant/AdditionalSupplies"));
+		  FileUtils.copyFile(scr1,new File("/home/user/Desktop/user_repo/To_Paryicipant/Movies.png"));
 		  
 		  driver.findElement(By.id("offerLink")).click();
 		  WebElement form=driver.findElement(By,id("offersDropdown"));
@@ -68,7 +68,7 @@ public class Submit {
 		
 	}
 	
-	String path="/html/user/Desktop/user_repo/To_Participant/AdditionalSupplies";
+	String path="/home/user/Desktop/user_repo/To_Paryicipant/AdditionalSuppliesFiles/Book.xls";
 	 FileInputStream fs=new FileInputStream(path);
 	  HSSFWokbook wb=new HSSFWorkbook(fis);
 	  HSSFSheet sh1= wb.getSheet("Details");
