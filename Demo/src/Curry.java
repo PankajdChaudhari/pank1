@@ -10,10 +10,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
 
-public class Sel2 {
+public class Curry {
 
-	@Test
-	public void Submit() {
+	
+//	public void Submit() {
 		
 		webDriver driver=null;
 		
